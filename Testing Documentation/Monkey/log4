@@ -1,0 +1,50 @@
+  bash arg: -s
+  bash arg: 1713402554688
+  bash arg: -p
+  bash arg: com.design.appproject
+  bash arg: -v-v-v
+  bash arg: 100
+:Monkey: seed=1713402554688 count=100
+:AllowPackage: com.design.appproject
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.design.appproject/.ui.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.design.appproject/.ui.MainActivity } in package com.design.appproject
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(333.0,71.0)
+:Sending Touch (ACTION_UP): 0:(335.51562,107.49609)
+:Sending Touch (ACTION_DOWN): 0:(465.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(467.1914,1059.7383)
+:Sending Touch (ACTION_DOWN): 0:(321.0,1084.0)
+:Sending Touch (ACTION_UP): 0:(424.63184,1100.4521)
+    // Allowing start of Intent { cmp=com.design.appproject/.ui.ContainerActivity } in package com.design.appproject
+    // Allowing start of Intent { cmp=com.design.appproject/.ui.ContainerActivity } in package com.design.appproject
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(659.0,1222.0)
+:Sending Touch (ACTION_UP): 0:(657.22363,1212.7012)
+:Sending Touch (ACTION_DOWN): 0:(998.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(986.2832,1066.7197)
+:Sending Touch (ACTION_DOWN): 0:(950.0,1217.0)
+:Sending Touch (ACTION_UP): 0:(960.42773,1225.2217)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=928ms (0ms mobile, 0ms wifi, 928ms not connected)
+// Monkey finished

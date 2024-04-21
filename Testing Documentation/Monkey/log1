@@ -1,0 +1,50 @@
+  bash arg: -p
+  bash arg: com.design.appproject
+  bash arg: -v
+  bash arg: 100
+:Monkey: seed=1713238138539 count=100
+:AllowPackage: com.design.appproject
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.design.appproject/.ui.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.design.appproject/.ui.MainActivity } in package com.design.appproject
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(371.0,1205.0)
+:Sending Touch (ACTION_UP): 0:(375.7627,1214.707)
+:Sending Touch (ACTION_DOWN): 0:(635.0,295.0)
+:Sending Touch (ACTION_UP): 0:(652.2207,304.49512)
+    // Allowing start of Intent { cmp=com.design.appproject/.ui.ContainerActivity } in package com.design.appproject
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(564.0,786.0)
+:Sending Touch (ACTION_UP): 0:(602.5459,739.6904)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(230.0,453.0)
+:Sending Touch (ACTION_UP): 0:(241.33008,453.40527)
+:Sending Touch (ACTION_DOWN): 0:(233.0,435.0)
+:Sending Touch (ACTION_UP): 0:(258.20215,468.4375)
+:Sending Touch (ACTION_DOWN): 0:(657.0,376.0)
+:Sending Touch (ACTION_UP): 0:(683.959,331.23242)
+:Sending Touch (ACTION_DOWN): 0:(997.0,1159.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=1 rotations=0
+## Network stats: elapsed time=885ms (0ms mobile, 0ms wifi, 885ms not connected)
+// Monkey finished

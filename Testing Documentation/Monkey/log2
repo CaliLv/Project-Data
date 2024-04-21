@@ -1,0 +1,45 @@
+  bash arg: -p
+  bash arg: com.design.appproject
+  bash arg: -v-v
+  bash arg: 100
+:Monkey: seed=1713247819642 count=100
+:AllowPackage: com.design.appproject
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.design.appproject/.ui.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.design.appproject/.ui.MainActivity } in package com.design.appproject
+:Sending Touch (ACTION_DOWN): 0:(653.0,123.0)
+:Sending Touch (ACTION_UP): 0:(639.5176,116.33789)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(354.0,380.0)
+:Sending Touch (ACTION_UP): 0:(351.88477,392.21777)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+    // Rejecting start of Intent { act=android.intent.action.APPLICATION_PREFERENCES pkg=com.google.android.apps.nexuslauncher cmp=com.google.android.apps.nexuslauncher/com.android.launcher3.settings.SettingsActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(91.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(73.51172,1050.7344)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.android.dialer.main.impl.MainActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(1016.0,1309.0)
+:Sending Touch (ACTION_UP): 0:(1017.2998,1301.7764)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(82.0,270.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=667ms (0ms mobile, 0ms wifi, 667ms not connected)
+// Monkey finished
