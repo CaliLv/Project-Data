@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.design.appproject.widget.CommonTitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/navigation_backgroundColor"
+        app:common_leftVisible="false"
+        app:common_title="Home"
+        app:common_titleColor="@color/navigation_color" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/home_srl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+            <com.design.appproject.widget.MyFlexBoxLayout
+                style="@style/index_box_style">
+                <com.design.appproject.widget.MyFrameLayout
+                    style="@style/index_swiper_box_style">
+                    <com.youth.banner.Banner
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+              </com.design.appproject.widget.MyFrameLayout>
+                <com.design.appproject.widget.MyFlexBoxLayout
+                    android:id="@+id/menu_gl"
+                    style="@style/index_menu_box_style"/>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            style="@style/index_recommend_box_box_style">
+        <com.design.appproject.widget.MyFlexBoxLayout
+                app:flexWrap="wrap"
+            android:visibility="gone"
+            style="@style/index_recommend_idea_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:text="Learn to choose, learn to give up；"
+                style="@style/index_recommend_idea_box1_style"/>
+            <com.design.appproject.widget.MyTextView
+                android:text="Can withstand loneliness and temptation。"
+                style="@style/index_recommend_idea_box2_style"/>
+            <com.design.appproject.widget.MyTextView
+                android:text=""
+                style="@style/index_recommend_idea_box3_style"/>
+            <com.design.appproject.widget.MyTextView
+                android:text=""
+                style="@style/index_recommend_idea_box4_style"/>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFrameLayout
+            style="@style/index_recommend_title_box_style">
+            <com.design.appproject.widget.MyTextView
+                style="@style/index_recommend_title_text_style"
+                android:text="Food sharing recommendations"/>
+        </com.design.appproject.widget.MyFrameLayout>
+
+                <com.design.appproject.widget.MyFlexBoxLayout
+                    app:flexWrap="wrap"
+                        android:visibility="gone"
+                        style="@style/index_recommend_idea_box_style">
+                    <com.design.appproject.widget.MyTextView
+                        android:text="Learn to choose, learn to give up；"
+                        style="@style/index_recommend_idea_box1_style"/>
+                    <com.design.appproject.widget.MyTextView
+                        android:text="Can withstand loneliness and temptation。"
+                        style="@style/index_recommend_idea_box2_style"/>
+                    <com.design.appproject.widget.MyTextView
+                        android:text=""
+                        style="@style/index_recommend_idea_box3_style"/>
+                    <com.design.appproject.widget.MyTextView
+                        android:text=""
+                        style="@style/index_recommend_idea_box4_style"/>
+                </com.design.appproject.widget.MyFlexBoxLayout>
+
+                <com.design.appproject.widget.MyFlexBoxLayout
+                    app:flexWrap="wrap"
+                    android:id="@+id/meishifenxiang_gl"
+                    style="@style/index_recommend_box_style"/>
+
+                <com.design.appproject.widget.MyFlexBoxLayout
+                    app:flexWrap="wrap"
+                    android:visibility="gone"
+                    style="@style/index_recommend_idea_box_style">
+                    <com.design.appproject.widget.MyTextView
+                        android:text="Learn to choose, learn to give up；"
+                        style="@style/index_recommend_idea_box1_style"/>
+                    <com.design.appproject.widget.MyTextView
+                        android:text="Can withstand loneliness and temptation。"
+                        style="@style/index_recommend_idea_box2_style"/>
+                    <com.design.appproject.widget.MyTextView
+                        android:text=""
+                        style="@style/index_recommend_idea_box3_style"/>
+                    <com.design.appproject.widget.MyTextView
+                        android:text=""
+                        style="@style/index_recommend_idea_box4_style"/>
+            </com.design.appproject.widget.MyFlexBoxLayout>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            style="@style/index_list_box_box_style">
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        android:visibility="gone"
+        style="@style/index_list_idea_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Don't regret the past, don't waste the present"
+            style="@style/index_list_idea_box1_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text="Full of dreams, facing the future"
+            style="@style/index_list_idea_box2_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text=""
+            style="@style/index_list_idea_box3_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text=""
+            style="@style/index_list_idea_box4_style"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        style="@style/index_list_title_box_style">
+        <com.design.appproject.widget.MyTextView
+            style="@style/index_list_title_text_style"
+            android:text="Food sharing"/>
+        <com.design.appproject.widget.MyTextView
+            style="@style/index_list_title_more_style"
+            android:id="@+id/meishifenxiang_more_tv"
+            android:text="View More"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        android:visibility="gone"
+        style="@style/index_list_idea_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Don't regret the past, don't waste the present"
+            style="@style/index_list_idea_box1_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text="Full of dreams, facing the future"
+            style="@style/index_list_idea_box2_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text=""
+            style="@style/index_list_idea_box3_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text=""
+            style="@style/index_list_idea_box4_style"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            app:flexWrap="wrap"
+            style="@style/index_list_box_style"
+            android:id="@+id/meishifenxiang_list_ll"/>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        android:visibility="gone"
+        style="@style/index_list_idea_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Don't regret the past, don't waste the present"
+            style="@style/index_list_idea_box1_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text="Full of dreams, facing the future"
+            style="@style/index_list_idea_box2_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text=""
+            style="@style/index_list_idea_box3_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:text=""
+            style="@style/index_list_idea_box4_style"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

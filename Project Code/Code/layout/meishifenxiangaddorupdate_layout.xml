@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.appproject.widget.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/add_box_style"
+    android:fillViewport="true">
+    <com.design.appproject.widget.MyLinearLayout
+        style="@style/add_form_style"
+        android:orientation="vertical">
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/meishimingcheng_ll"
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Food Name"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyEditTextView
+            android:id="@+id/meishimingcheng_et"
+            style="@style/add_item_input_style"
+            android:hint="Food Name"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            style="@style/add_item_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:text="Food Type"
+                style="@style/add_item_label_style"/>
+            <com.design.appproject.widget.BottomSpinner
+                android:id="@+id/meishileixing_bs"
+                style="@style/add_item_picker_box_style"
+                android:text="Please select a food type"/>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            android:id="@+id/meishitupian_ll"
+            style="@style/add_item_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:id="@+id/meishitupian_tv"
+                android:text="Food pictures"
+                style="@style/add_item_label_style"/>
+            <com.design.appproject.widget.MyImageView
+                android:id="@+id/meishitupian_ifv"
+                style="@style/add_item_img_style"
+                android:src="@mipmap/upload"/>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/shicai_ll"
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Ingredients"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyEditTextView
+            android:id="@+id/shicai_et"
+            style="@style/add_item_input_style"
+            android:hint="Ingredients"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            style="@style/add_item_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:text="Cooking methods"
+                style="@style/add_item_label_style"/>
+            <com.design.appproject.widget.BottomSpinner
+                android:id="@+id/pengrenfangshi_bs"
+                style="@style/add_item_picker_box_style"
+                android:text="Please choose the cooking method"/>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            style="@style/add_item_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:text="Flavor"
+                style="@style/add_item_label_style"/>
+            <com.design.appproject.widget.BottomSpinner
+                android:id="@+id/fengwei_bs"
+                style="@style/add_item_picker_box_style"
+                android:text="Please select the flavor"/>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+        <com.design.appproject.widget.MyFlexBoxLayout
+            style="@style/add_item_box_style">
+            <com.design.appproject.widget.MyTextView
+                android:text="Cuisine"
+                style="@style/add_item_label_style"/>
+            <com.design.appproject.widget.BottomSpinner
+                android:id="@+id/caixi_bs"
+                style="@style/add_item_picker_box_style"
+                android:text="Please select a cuisine"/>
+        </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/peiliao_ll"
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Ingredient"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyEditTextView
+            android:id="@+id/peiliao_et"
+            style="@style/add_item_input_style"
+            android:hint="Ingredient"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/storeupnum_ll"
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Number of Collections"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyEditTextView
+            android:id="@+id/storeupnum_et"
+            android:inputType="number"
+            style="@style/add_item_input_style"
+            android:hint="Number of Collections"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/yonghuzhanghao_ll"
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="User Account"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyEditTextView
+            android:id="@+id/yonghuzhanghao_et"
+            style="@style/add_item_input_style"
+            android:hint="User Account"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/yonghuxingming_ll"
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="User Name"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyEditTextView
+            android:id="@+id/yonghuxingming_et"
+            style="@style/add_item_input_style"
+            android:hint="User Name"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        style="@style/add_item_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Share time"
+            style="@style/add_item_label_style"/>
+        <com.design.appproject.widget.MyTextView
+            android:id="@+id/fenxiangshijian_tv"
+            android:text="Please choose a sharing time"
+            style="@style/add_item_picker_box_style"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        app:flexWrap="wrap"
+        style="@style/add_item_editor_box_style">
+        <com.design.appproject.widget.MyTextView
+            android:text="Production process"
+            style="@style/add_item_editor_label_style"/>
+        <include
+                android:id="@+id/zhizuoguocheng_rich_layout"
+                layout="@layout/richeditor_layout"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFrameLayout
+        style="@style/add_btn_box_style">
+        <com.design.appproject.widget.MyButton
+            android:id="@+id/submit_btn"
+            android:text="Submit"
+            android:gravity="center"
+        style="@style/add_btn_submit_style"/>
+    </com.design.appproject.widget.MyFrameLayout>
+
+
+    </com.design.appproject.widget.MyLinearLayout>
+</com.design.appproject.widget.MyScrollView>
